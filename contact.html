@@ -11,18 +11,17 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- this is my portafolio favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/images/icons8-moon-phase-50 (1).png">
-
-
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Luna Devs</title>
 </head>
 
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top py-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top py-0 sticky-top">
         <div class="container">
             <a class="navbar-brand px-2" href="index.html">
-                <h1>Erik De Luna</h1>
+                <h1 class="mb-0" >Erik De Luna</h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +45,7 @@
     </nav>
 
     <!-- Page Content -->
-    <form class="container shadow-lg mt-5 p-3 rounded">
+    <form class="container shadow-lg mt-5 p-2 rounded">
         <h1>Contact</h1>
         <hr>
         <div class="form-row">
@@ -76,17 +75,21 @@
                     placeholder="Message Here..."></textarea>
             </div>
         </div>
-        <div class="form-row mt-3">
+        <div class="form-row mb-3 mt-1">
             <div class="col-10 offset-1 mt-3">
-                <button type="submit" class="btn btn-primary">
-                    <h5>Submit</h5>
+                <button type="submit" class="btn btn-info">
+                    <h5 class="m-0">Submit</h5>
                 </button>
             </div>
         </div>
     </form>
 
 
-
+    <footer class="footer fixed-bottom mb-0 py-3 bg-dark">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
 
 
 
