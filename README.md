@@ -33,8 +33,3 @@ Responsive design ensures that web applications render well on a variety of devi
 * Must properly utilize Bootstrap components and grid system.
 
 
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-
